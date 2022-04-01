@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Signika:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 10%;
+    background-color: #EC9A29;
+}
+nav{
+    border: 20px;
+    display: flex;
+}
+body{
+    background-color: #FFEE88;
+}
+/*
+.titulo::before{
+    content: url(https://cdn-icons-png.flaticon.com/512/620/620786.png);
+    width: 1px;
+}
+*/
+.navg{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30%
+}
+.navg a{
+    font-family: "Righteous", cursive;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: #DAD2D8;
+}
+.navg a:hover{
+    color: red;
+}
+.titulo{
+    font-family: "Righteous", cursive;
+    font-weight: 600;
+    font-size: 40px;
+    color: #143642;
+}
+.titulo:hover{
+    font-size: 45px;
+}
+h2{
+    font-family: "Righteous", cursive;
+    font-weight: 300;
+    font-size: 25px;
+    color: #A8201A;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.p1{
+    font-family: "Righteous", cursive;
+    font-weight: 300;
+    font-size: 20px;
+    color: #A8201A;
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+}
+.catioros{
+    border-image: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.img1{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    padding: 20px;
+    border-radius: 50%;
+}
+.NomeCatioros{
+    font-family: "Righteous", cursive;
+    font-weight: 300;
+    font-size: 20px;
+    color: #0F8B8D;
+}
+/* Botões de doação e ajuda*/
+.botaoAA{
+    border-radius: 20px;
+    background-color: #143642;
+    padding: 20px;
+    justify-content:space-evenly;
+}
+.divBut{
+    padding-top: 30px;
+    justify-content: space-evenly;
+    text-decoration:none;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.divBut button:hover{
+    background-color: #A8201A;
+}
+.divBut a{
+    text-decoration:none;
+    color: #DAD2D8;
+    font-family: "Righteous", cursive;
+    font-weight: 200;
+    font-size: 20px;
+}
+/* Rodapé*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: "Righteous", cursive;
+    padding: 30px 10%;
+    background-color: #EC9A29;
+}
+.endereco{
+    justify-content: flex-start;
+    font-weight: 200;
+    font-size: 15px;
+}

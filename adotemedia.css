@@ -1,0 +1,12 @@
+@media (max-width:699px){
+
+}
+@media (max-width:699px){
+    .navg{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        display: none;
+    }
+}
