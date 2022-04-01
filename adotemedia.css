@@ -9,4 +9,8 @@
     h1{
         display: none;
     }
+    .catioros{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
