@@ -25,6 +25,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
     gap: 30%
 }
 .navg a{
@@ -45,6 +46,19 @@ body{
 }
 .titulo:hover{
     font-size: 45px;
+}
+#logo{
+    width:17%;
+    height: 17%;
+    padding-left: 2%;
+    padding-right: 4%;
+}
+.titlogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: #143642;
 }
 h2{
     font-family: "Righteous", cursive;
@@ -106,6 +120,7 @@ h2{
 }
 .divBut button:hover{
     background-color: #0F8B8D;
+    transform: scale(1.1);
 }
 .divBut a{
     text-decoration:none;
