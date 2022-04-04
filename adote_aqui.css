@@ -85,6 +85,9 @@ h2{
     flex-direction: row;
     justify-content: space-evenly;
 }
+.orgCatioros:hover{
+    transform: scale(1.2);
+}
 .img1{
     width: 300px;
     height: 300px;
